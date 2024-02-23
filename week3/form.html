@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Demo</title>
+</head>
+<body>
+    <style>
+        label {
+            color:brown;
+        }
+    </style>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="hoten">Họ tên cậu</label></td>
+                <td><input type="text" id="hoten" name="hoten" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="tuoi">Tuổi</label></td>
+                <td><input type="number" id="tuoi" name="tuoi" required></td>
+            </tr>
+            <tr>
+                <td><label for="gioitinh">Giới tính</label>></label></td>
+                <td>
+                    <select name="gioitinh" id="gioitinh" required>
+                        <option value="male">Nam</option>
+                        <option value="female">Nữ</option>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="matkhau">Mật khẩu</label></td>
+                <td><input type="password" id="matkhau" name="matkhau" required></td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
