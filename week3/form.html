@@ -1,85 +1,38 @@
 <!DOCTYPE html>
-<head lang="en">
+<html lang="en">
+<head>
+    <title>Form Demo</title>
 </head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      strong {
-        color:firebrick;
-      }
-      a {
-
-      }
-      a:visited {
-
-      }
-      a:hover {
-
-      }
-    </style>
-    </head>
-    </body>
-    <h1><b>Table of Content</b></h1>
-    <h2>
-      <b>1.</b><a href="https://vi.wikipedia.org/wiki/Internet">Internet</a>
-    </h2>
-    <h2>
-      <b>2.</b
-      ><a
-        href="https://colorme.vn/blog/layout-la-gi-tam-quan-trong-cua-layout-trong-thiet-ke"
-        >Layout</a
-      >
-    </h2>
-    <h2>
-      <b>3.</b>
-      <a href="https://developer.android.com/develop/ui/views/layout/linear"
-        >Linear layout</a
-      >
-    </h2>
-    <h2>
-      <b>4.</b>
-      <a
-        href="https://tr-ex.me/d%E1%BB%8Bch/ti%E1%BA%BFng+anh-ti%E1%BA%BFng+vi%E1%BB%87t/pathname"
-        >Pathname</a
-      >
-    </h2>
-    <hr />
-    <p>
-      <b>Internet</b>
-    </p>
-    <p>
-      The Internet is the foremost important tool and the prominent resource
-      that is being used by almost every person across the globe. It connects
-      millions of computers, webpages, websites, and servers. Using the internet
-      we can send emails, photos, videos, and messages to our loved ones. Or in
-      other words, the Internet is a widespread interconnected network of
-      computers and electronic devices(that support Internet). It creates a
-      communication medium to share and get information online. If your device
-      is connected to the Internet then only you will be able to access all the
-      applications, websites, social media apps, and many more services. The
-      Internet nowadays is considered the fastest medium for sending and
-      receiving information.
-    </p>
-    <p>
-      <b>Layout</b>
-    </p>
-    Is the universal design tool. To layout a page, means
-    to use type and graphics and space, to create story, and voice, and
-    engagement. Most layouts are static, nothing moves. They don't have to be;
-    layouts can also move as they often do on the web, but for this course we'll
-    focus on static layout and the reason is that everything we need to know can
-    be learned there. Get the still page mastered and adding motion is a snap.
-    When you think of layout, chances are you think of it as a mechanical thing.
-    You have a page, which is a finite space, you have a fixed amount of
-    material that go into that space, you may have a grid of columns and your
-    job is to fill that space in a way that looks good.
-    </p>
-    <p>
-      <b>Linear Layout</b>
-    </p>
-    <p>
-      nesdegfeuwqdgwbjahoqidqhbdjbd
-    </p>
-  </body>
-</html>
+<body>
+    <form action="">
+<table>
+  <tr>
+      <td><label for="hoten">Họ tên cậu</label></td>
+      <td><input type="text" id="hoten" name="hoten"></td>
+      <td><input type="text" id="hoten" name="hoten" required></td>
+  </tr>
+  <tr>
+      <td><label for="email">Email</label></td>
+      <td><input type="email" id="email" name="email"></td>
+      <td><input type="email" id="email" name="email" required></td>
+  </tr>
+  <tr>
+      <td><label for="tuoi">Tuổi</label></td>
+      <td><input type="number" id="tuoi" name="tuoi"></td>
+      <td><input type="number" id="tuoi" name="tuoi" required></td>
+  </tr>
+  <tr>
+      <td><label for="gioitinh">Giới tính</label>></label></td>
+      <td>
+          <select name="gioitinh" id="gioitinh">
+              <option value="male">Nam</option>
+              <option value="female">Nữ</option>
+      </td>
+  </tr>
+  <tr>
+      <td><label for="matkhau">Mật khẩu</label></td>
+      <td><input type="password" id="matkhau" name="matkhau"></td>
+      <td><input type="password" id="matkhau" name="matkhau" required></td>
+  </tr>
+</table>
+<input type="submit">
